@@ -5,7 +5,7 @@ HTML, body {
 
 #frame {
     display: flex;
-    margin: 15%;
+    margin: 14.5%;
 }
 
 #frame * h2 {
@@ -29,6 +29,9 @@ HTML, body {
 #sedans {
     background-color: hsl(31, 77%, 52%);
     padding: 5%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    
 }
 
 #sedans > button {
@@ -69,6 +72,9 @@ HTML, body {
 #luxury {
     background-color: hsl(179, 100%, 13%);
     padding: 5%;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    
 }
 
 #luxury > button {
@@ -84,4 +90,5 @@ HTML, body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+
 }
