@@ -1,13 +1,18 @@
+/* setting color and font size on my HTML and body */
 HTML, body {
     background-color: hsl(0, 0%, 95%);
     font-size: 15px;
+    
 }
 
+/* frame adjustments for, sedan, suvs and luxury */
 #frame {
     display: flex;
     margin: 14.5%;
+
 }
 
+/* setting color, text and some margin on all my h2 tags inside id frame */
 #frame * h2 {
     color:  hsl(0, 0%, 95%);
     margin-bottom: 10%;
@@ -15,8 +20,10 @@ HTML, body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+
 }
 
+/* setting color, text on all p tags inside id frame */
 #frame * p {
     color:  hsla(0, 0%, 100%, 0.75);
     font-family: "Lexend Deca", serif;
@@ -24,16 +31,19 @@ HTML, body {
     font-weight: 400;
     font-style: normal;
     margin-bottom: 40%;
+
 }
 
+/* Sedans frame */
 #sedans {
     background-color: hsl(31, 77%, 52%);
     padding: 5%;
     border-top-left-radius: 2%;
     border-bottom-left-radius: 2%;
-    
+
 }
 
+/* Sedans button */
 #sedans > button {
     background-color:  hsl(0, 0%, 95%);
     color:  hsl(31, 77%, 52%);
@@ -41,19 +51,23 @@ HTML, body {
     padding: 2%;
     border: none;
     border-radius: 15px;
-    width: 55%;
-    height: 10%;
+    width: 65%;
+    height: 11%;
     font-family: "Lexend Deca", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+
 }
 
+/* Suvs frame */
 #suvs {
     background-color:  hsl(184, 100%, 22%);
     padding: 5%;
+
 }
 
+/* Suvs button */
 #suvs > button {
     background-color:  hsl(0, 0%, 95%);
     color: hsl(184, 100%, 22%);
@@ -61,14 +75,16 @@ HTML, body {
     padding: 2%;
     border: none;
     border-radius: 15px;
-    width: 55%;
-    height: 10%;
+    width: 65%;
+    height: 11%;
     font-family: "Lexend Deca", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+
 }
 
+/* Luxury frame */
 #luxury {
     background-color: hsl(179, 100%, 13%);
     padding: 5%;
@@ -77,6 +93,7 @@ HTML, body {
     
 }
 
+/* Luxury button */
 #luxury > button {
     background-color: hsl(0, 0%, 95%);
     color: hsl(179, 100%, 13%);
@@ -84,8 +101,8 @@ HTML, body {
     padding: 2%;
     border: none;
     border-radius: 15px;
-    width: 55%;
-    height: 10%;
+    width: 65%;
+    height: 11%;
     font-family: "Lexend Deca", serif;
     font-optical-sizing: auto;
     font-weight: 400;
