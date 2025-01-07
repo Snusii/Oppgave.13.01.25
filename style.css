@@ -1,5 +1,6 @@
 HTML, body {
     background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
 }
 
 #frame {
@@ -11,6 +12,10 @@ HTML, body {
     color:  hsl(0, 0%, 95%);
 }
 
+#frame * p {
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
 #sedans {
     background-color: hsl(31, 77%, 52%);
     padding: 5%;
@@ -20,6 +25,15 @@ HTML, body {
     background-color:  hsl(0, 0%, 95%);
     color:  hsl(31, 77%, 52%);
     font-weight: bolder;
+    padding: 2%;
+    border: none;
+    border-radius: 15px;
+    width: 60%;
+    height: 15%;
+    font-family: "Lexend Deca", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #suvs {
@@ -31,6 +45,15 @@ HTML, body {
     background-color:  hsl(0, 0%, 95%);
     color: hsl(184, 100%, 22%);
     font-weight: bolder;
+    padding: 2%;
+    border: none;
+    border-radius: 15px;
+    width: 60%;
+    height: 15%;
+    font-family: "Lexend Deca", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #luxury {
@@ -42,4 +65,13 @@ HTML, body {
     background-color: hsl(0, 0%, 95%);
     color: hsl(179, 100%, 13%);
     font-weight: bolder;
+    padding: 2%;
+    border: none;
+    border-radius: 15px;
+    width: 60%;
+    height: 15%;
+    font-family: "Lexend Deca", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
