@@ -4,15 +4,42 @@ HTML, body {
 
 #frame {
     display: flex;
+    margin: 15%;
 }
+
+#frame * h2 {
+    color:  hsl(0, 0%, 95%);
+}
+
 #sedans {
     background-color: hsl(31, 77%, 52%);
+    padding: 5%;
+}
+
+#sedans > button {
+    background-color:  hsl(0, 0%, 95%);
+    color:  hsl(31, 77%, 52%);
+    font-weight: bolder;
 }
 
 #suvs {
     background-color:  hsl(184, 100%, 22%);
+    padding: 5%;
+}
+
+#suvs > button {
+    background-color:  hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    font-weight: bolder;
 }
 
 #luxury {
     background-color: hsl(179, 100%, 13%);
+    padding: 5%;
+}
+
+#luxury > button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    font-weight: bolder;
 }
