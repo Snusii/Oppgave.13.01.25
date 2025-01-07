@@ -10,10 +10,20 @@ HTML, body {
 
 #frame * h2 {
     color:  hsl(0, 0%, 95%);
+    margin-bottom: 10%;
+    font-family: "Lexend Deca", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 #frame * p {
     color:  hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 40%;
 }
 
 #sedans {
@@ -29,7 +39,7 @@ HTML, body {
     border: none;
     border-radius: 15px;
     width: 60%;
-    height: 15%;
+    height: 10%;
     font-family: "Lexend Deca", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -49,7 +59,7 @@ HTML, body {
     border: none;
     border-radius: 15px;
     width: 60%;
-    height: 15%;
+    height: 10%;
     font-family: "Lexend Deca", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -69,7 +79,7 @@ HTML, body {
     border: none;
     border-radius: 15px;
     width: 60%;
-    height: 15%;
+    height: 10%;
     font-family: "Lexend Deca", serif;
     font-optical-sizing: auto;
     font-weight: 400;
